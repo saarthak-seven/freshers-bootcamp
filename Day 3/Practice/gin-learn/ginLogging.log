@@ -1,10 +1,11 @@
-[GIN-debug] GET    /admin/getUserData        --> main.getUserData (4 handlers)
-[GIN-debug] GET    /Ping                     --> main.pong (3 handlers)
-[GIN-debug] GET    /getUrlData/:name/:id     --> main.getUrlData (3 handlers)
-[GIN-debug] GET    /getData1                 --> main.getData1 (5 handlers)
-[GIN-debug] GET    /getData2                 --> main.getData2 (3 handlers)
-[GIN-debug] GET    /getData3                 --> main.getData3 (3 handlers)
+[GIN-debug] GET    /admin/getUserData        --> main.getUserData (5 handlers)
+[GIN-debug] GET    /Ping                     --> main.pong (4 handlers)
+[GIN-debug] GET    /getUrlData/:name/:id     --> main.getUrlData (4 handlers)
+[GIN-debug] GET    /getData1                 --> main.getData1 (6 handlers)
+[GIN-debug] GET    /getData2                 --> main.getData2 (4 handlers)
+[GIN-debug] GET    /getData3                 --> main.getData3 (4 handlers)
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
 [GIN-debug] Listening and serving HTTP on :8080
+{"TimeStamp":"2025-03-10T15:09:16.310923+05:30","StatusCode":404,"Latency":125000,"ClientIP":"::1","Method":"GET","Path":"/Ping2","ErrorMessage":"","RequestProto":"HTTP/1.1"}{"TimeStamp":"2025-03-10T15:09:18.958738+05:30","StatusCode":404,"Latency":125000,"ClientIP":"::1","Method":"GET","Path":"/Ping1","ErrorMessage":"","RequestProto":"HTTP/1.1"}{"TimeStamp":"2025-03-10T15:09:20.851753+05:30","StatusCode":200,"Latency":60458000,"ClientIP":"::1","Method":"GET","Path":"/Ping","ErrorMessage":"","RequestProto":"HTTP/1.1"}

@@ -14,6 +14,7 @@ func main() {
 
 	f, _ := os.Create("ginLogging.log")
 	gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
+	router.Use(gin.LoggerWithFormatter(middleware.FormatLogsJson))
 
 	auth := gin.BasicAuth(gin.Accounts{
 		"user": "pass",
